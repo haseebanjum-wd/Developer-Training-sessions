@@ -1,0 +1,36 @@
+.parent {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.lBox {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    border-top: 10px solid rgba(23, 139, 217, 0.906);
+    border-left: 10px solid rgba(23, 139, 217, 0.906);
+    animation: infinite linear;
+    animation-name: lMove;
+    animation-duration: 2s;
+}
+
+@keyframes lMove {
+    0% {
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    100% {
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+}
+
+.load {
+    color: skyblue;
+    text-align: center;
+    position: absolute;
+    left: 50px;
+}

@@ -1,0 +1,51 @@
+.img {
+    width: 100px;
+    animation: infinite linear;
+    animation-name: sMove;
+    animation-duration: 2s;
+}
+
+@keyframes sMove {
+    0% {
+        transform: translateY(-50px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.wait {
+    display: flex;
+}
+
+.dotUp { 
+    animation: infinite linear;
+    animation-name: oMove;
+    animation-duration: 2s;
+}
+
+@keyframes oMove {
+    0% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.dotDown {
+    animation: infinite linear;
+    animation-name: tMove;
+    animation-duration: 2s;
+}
+
+@keyframes tMove {
+    0% {
+        transform: translateY(5px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+ }

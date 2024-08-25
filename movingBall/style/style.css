@@ -1,0 +1,38 @@
+.parent {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lBox {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border: 15px solid red;
+    border-radius: 50%;
+}
+
+.sBox {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 0%;
+    margin-left: 70px;
+    background-color: yellow;
+    animation: infinite linear;
+    border-radius: 50px;
+    animation: infinite linear;
+    animation-name: bMove;
+    animation-duration: 2s;
+}
+
+@keyframes bMove {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}
