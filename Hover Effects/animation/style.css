@@ -1,0 +1,45 @@
+.topHeader {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    font-size: 150px;
+}
+
+.work {
+    font-size: 150px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    width: 300px;
+    height: 550px;
+    margin: 10px;
+    border-radius: 50px;
+    background-size: cover;
+    display: flex;
+    background-position: center;
+    position: relative;
+    justify-content: center;
+    align-items: end;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.image:hover {
+    width: 550px;
+}
